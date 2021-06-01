@@ -5,29 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+  <div class="card">
+    <div class="container">
 
-  Get insights that help your business grow.
+      <div class="card__img">
+        <img src="images/image-header-mobile.jpg" alt="a harmonious work environment" class="card__img--mobile">
+        <img src="images/image-header-desktop.jpg" alt="a harmonious work environment" class="card__img--desktop">
+      </div>
+      
+      <div class="card__texts">
+        <h2 class="card__subtitle">Get <span class="card_subtitle--purple">insights</span> that help your business grow.</h2>
+        <p class="card__text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+        </p>
+      </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <div class="card__counts">
+        <h2 class="card__subtitle">10k+</h2>
+        <p class="card__text card__text--custom">companies</p>
+        <h2 class="card__subtitle">314</h2> 
+        <p class="card__text card__text--custom">templates</p>
+        <h2 class="card__subtitle">12m+</h2>
+        <p class="card__text card__text--custom">queries</p>
+      </div>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+    </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+
 </body>
 </html>
